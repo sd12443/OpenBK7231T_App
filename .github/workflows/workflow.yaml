@@ -177,6 +177,7 @@ jobs:
             variant: default
           - platform: OpenW600
             variant: default
+        
           - platform: OpenLN882H
             variant: default
             gcc: 10.3-2021.10
@@ -223,6 +224,8 @@ jobs:
             variant: irRemoteESP
           - platform: OpenBK7231T
             variant: sensors
+          - platform: OpenBK7231T
+            variant: dmx
 
           # extras for BK7231N
           - platform: OpenBK7231N
